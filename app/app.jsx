@@ -2,7 +2,6 @@ import React    from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 
-require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 require('style!css!sass!./styles/app.scss');
 
